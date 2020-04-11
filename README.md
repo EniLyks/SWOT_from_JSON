@@ -9,3 +9,6 @@ https://enilyks.github.io/SWOT_from_JSON/
 
 Проект является логическим продолжением данного:
 https://github.com/stankin/oop-app/tree/master/swot
+
+Документация:
+https://github.com/EniLyks/SWOT_from_JSON/wiki
