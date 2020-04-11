@@ -46,3 +46,8 @@
         tr {
             height: auto;
         }
+
+textarea{
+	width: 300px; 
+	height: 100px;
+}

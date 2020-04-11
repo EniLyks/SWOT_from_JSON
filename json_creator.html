@@ -1,56 +1,50 @@
 <!doctype html>
 <html>
 <head>
-<head>
-	<link rel="stylesheet" type="text/css" href="styles.css" >
-</head>
-  </style> 
 <meta charset="utf-8">
-<title>index</title>
+<title>Создание Json для SWOT</title>
+<style type="text/css">
+@import url("styles.css");
+</style>
 </head>
-<div></div>
+
 <body>
-<div> 
-	<p>Название фактора: </p>
-	<input maxlength="25px" size="60px">
-</div>
-
-
-	<table id='table' class="table_style">
-        <tr class="headline">
-            <th></th>
-            <th>Положительное влияние</th>
-            <th>Отрицательное влияние</th>
-        </tr>
-        <tr>
-            <th>Внутренняя среда</th>
-            <th id='S-O'>
-                <ul id='ul-id1'>
-					<input>
-                </ul>
-            </th>
-            <th id='W-O'>
-                <ul id='ul-id2'>
-					<input>
-                </ul>
-            </th>
-        </tr>
-        <tr>
-            <th>Внешняя среда</th>
-            <th id='S-T'>
-                <ul id='ul-id3'>
-					<input>
-                </ul>
-            </th>
-            <th id='W-T'>
-                <ul id='ul-id4'>
-					<input>
-                </ul>
-            </th>
-        </tr>
-	</table>
-	<button class="button" onclick="loadTestFile()">
-        Получить Json-файл
-    </button>
+	<h1 align="center">Создание Json-файла для SWOT-анализа</h1>
+<table border="1" align="center" class="table_style">
+  <tbody>
+    <tr class="headline">
+      <th scope="col">&nbsp;</th>
+      <th scope="col">&nbsp; Положительное влияние</th>
+      <th scope="col">&nbsp; Отрицательное влияние</th>
+    </tr>
+    <tr>
+      <td>&nbsp;Внутренняя среда</td>
+      <td>&nbsp; 
+		  <div contenteditable="true" style="width: 100%;">
+		  	<textarea></textarea>
+		</div>
+	</td>
+      <td>&nbsp;
+		<div contenteditable="true" style="width: 100%;">
+		  	<textarea></textarea>
+		</div>
+		</td>
+    </tr>
+    <tr>
+      <td>&nbsp; Внешняя среда</td>
+      <td>&nbsp;
+		<div contenteditable="true" style="width: 100%;">
+		  	<textarea></textarea>
+		</div>
+		</td>
+      <td>&nbsp;
+		<div contenteditable="true" style="width: 100%;">
+		  	<textarea></textarea>
+		</div>
+		</td>
+    </tr>
+  </tbody>
+</table>
+	<button class="button">Получить Json-файл</button>
 </body>
 </html>
